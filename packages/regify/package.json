@@ -52,8 +52,18 @@
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
+  "homepage": "https://github.com/ameghcoder/regify#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameghcoder/regify.git",
+    "directory": "packages/regify"
+  },
+  "bugs": {
+    "url": "https://github.com/ameghcoder/regify/issues"
+  },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ]
 }

@@ -1,7 +1,7 @@
 # regify
 
 [![npm version](https://badge.fury.io/js/regify.svg)](https://badge.fury.io/js/regify)
-![banner image](./src/assets/readme-banner.jpg)
+![banner image](https://raw.githubusercontent.com/ameghcoder/regify/main/packages/regify/src/assets/readme-banner.jpg)
 
 **Turn your components into shareable registries.**
 
