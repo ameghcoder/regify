@@ -1,0 +1,59 @@
+{
+  "name": "regify",
+  "version": "1.0.0",
+  "description": "Turn components into shareable registries - The Universal Component Registry CLI.",
+  "type": "module",
+  "main": "dist/scripts/index.js",
+  "types": "dist/scripts/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/scripts/index.d.ts",
+      "import": "./dist/scripts/index.js"
+    },
+    "./scripts": {
+      "types": "./dist/scripts/index.d.ts",
+      "import": "./dist/scripts/index.js"
+    }
+  },
+  "bin": {
+    "regify": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx index.ts",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "regify",
+    "component-registry",
+    "cli",
+    "registry",
+    "component",
+    "react",
+    "metadata",
+    "generator",
+    "typescript"
+  ],
+  "author": "Yashraj",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "glob": "^13.0.1",
+    "ora": "^8.0.1",
+    "ts-morph": "^27.0.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
